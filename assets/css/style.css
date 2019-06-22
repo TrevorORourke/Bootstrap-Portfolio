@@ -218,14 +218,52 @@ input[type=submit] {
 }
 
 
-  @media screen and (max-width: 980px)
+@media (min-width: 576px) {
+nav {
 
-  @media screen and (max-width: 768px)
+  text-align: center;
+}
 
-  @media screen and (max-width: 640px)
+.container {
+  width: 400px;
 
+}
+
+@media (min-width: 768px) { 
+  nav {
+
+  text-align: center; 
+}
+
+.container {
+  width: 500px;
+
+}
+
+ 
+
+@media (min-width: 992px) {
+  nav {
+
+  text-align: center;}
+
+  .container {
+    width: 600px;
   
+  }
 
+@media (min-width: 1200px) {
+   nav {
 
+  text-align: center;}
 
+  .container {
+    width: 700px;
+  
+  }
+
+/* @include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
 
